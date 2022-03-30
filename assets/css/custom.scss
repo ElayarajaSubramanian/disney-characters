@@ -1,0 +1,16 @@
+:root {
+  --blue: #1d3a86;
+  --dark-blue: #08082c;
+}
+.logo {
+  width: 200px;
+  height: auto;
+}
+.bg {
+  &-blue {
+    background: linear-gradient(to bottom, var(--dark-blue), var(--blue));
+  }
+}
+.navbar {
+  height: 120px;
+}
